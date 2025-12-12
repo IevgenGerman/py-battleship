@@ -78,8 +78,7 @@ class Ship:
         if alive_count == 0:
             self._is_drowned = True
             return "Sunk!"
-        else:
-            return "Hit!"
+        return "Hit!"
 
 
 class Battleship:
